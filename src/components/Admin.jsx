@@ -1,6 +1,7 @@
 import "../styles/Admin.css";
 
 import { useState } from "react";
+import Talleres from "./Talleres.jsx";
 
 export default function Admin() {
   const [element, setElement] = useState(<Talleres></Talleres>);
